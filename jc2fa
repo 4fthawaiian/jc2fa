@@ -1,2 +1,3 @@
 #!/usr/local/bin/zsh
 oathtool -b --totp `~/bin/getpwd jctotp` |pbcopy
+echo The MFA key is now in your clipboard
