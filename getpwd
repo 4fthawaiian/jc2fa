@@ -6,7 +6,7 @@ fi
 # test lastpass status
 /usr/local/bin/lpass status 2>&1 > /dev/null
 [ "$?" -eq "0" ] || (
-/usr/local/bin/lpass login --trust lastpass@mccroreys.com 2>&1 > /dev/null
+/usr/local/bin/lpass login --trust ${user} 2>&1 > /dev/null
 )
 # security -q find-generic-password -gs $1 2>&1 |awk -F\" '/password/ {print $2}'
 /usr/local/bin/lpass show "${1}" --password

@@ -1,4 +1,4 @@
 #!/usr/local/bin/zsh
 $(dirname $0)/config || exit 2
-oathtool -b --totp `~/bin/getpwd jctotp` |pbcopy
+oathtool -b --totp `~/bin/getpwd ${record}` |pbcopy
 echo The MFA key is now in your clipboard
