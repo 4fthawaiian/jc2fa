@@ -11,7 +11,7 @@
 * replace `lastpass@mccroreys.com` with your lastpass username in `getpwd` script
 * place both files in `~/bin` and make sure the directory is in your path
 * store the key for your jumpcloud 2fa in lastpass (I use the string `jctotp` for mine, but whatever works). 
-* You can generate a new string in the jumpcloud console:
+* You can generate a new string in the jumpcloud console (Security -> "Reset TOTP")
 
 <img src="jc.png">
 
