@@ -6,5 +6,5 @@
 * replace `lastpass@mccroreys.com` with your lastpass username in `getpwd` script
 * place both files in `~/bin` and make sure the directory is in your path
 
-[[https://github.com/4fthawaiian/jc2fa/blob/master/example.gif|example]]
+[[https://raw.githubusercontent.com/4fthawaiian/jc2fa/master/example.gif|example]]
 
