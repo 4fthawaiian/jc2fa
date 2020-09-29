@@ -7,11 +7,16 @@
 
 # Setup
 
-* replace `jctotp` with whatever your string is named in lastpass in `jc2fa` script
-* replace `lastpass@mccroreys.com` with your lastpass username in `getpwd` script
-* place both files in `~/bin` and make sure the directory is in your path
 * store the key for your jumpcloud 2fa in lastpass (I use the string `jctotp` for mine, but whatever works). 
-* You can generate a new string in the jumpcloud console (Security -> "Reset TOTP")
+* create the config file `~/.jccfg`
+
+```
+ echo user=mylastpassuser >> ~/.jccfg
+ echo record=jctotp >> ~/.jccfg # replace "jctotp" with the name you use for the record
+```
+
+* place jc2fa, getpwd and config scripts in `~/bin` and make sure the directory is in your path
+* You can generate a new string if needed in the jumpcloud console (Security -> "Reset TOTP")
 
 <img src="jc.png">
 
