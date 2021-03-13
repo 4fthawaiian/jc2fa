@@ -1,5 +1,7 @@
 # Command line 2fa
 
+This is very specifically geared to my use case (lastpass to store keys, and SSO/2FA via jumpcloud, bash on mac os). It would be pretty easy to adapt to other situations/requirements, though. I'm hoping others can use it as a reference to build on so they don't have to resort to using their phones for 2fa all of the time.
+
 # Requirements
 
 * https://github.com/lastpass/lastpass-cli (`brew install lastpass-cli` on mac)
